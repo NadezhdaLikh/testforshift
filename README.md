@@ -2,7 +2,9 @@
 
 Console application — a file content filtering utility.
 When the utility is launched from the command line, several files are provided as input, containing a mix of integers, strings, and floating-point numbers.
-The newline character is used as the delimiter. The task of the utility is to write different data types into separate files:
+The newline character is used as the delimiter. The lines from the files are read in sequence, in the order the files are listed in the command line.
+
+The task of the utility is to write different data types into separate files:
 - integers into one output file,
 - floating-point numbers into another,
 - strings into a third file.
