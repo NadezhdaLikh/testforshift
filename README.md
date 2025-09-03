@@ -59,7 +59,7 @@ java -jar target/testforshift-1.0.0.jar -o results -p sample_ -f in1.txt in2.txt
 
 ## Technologies
 - Java version: 21
-- Build system: Apache Maven
+- Build system: Apache Maven 3.8.6
 - Framework: Spring Boot 4.0.0-M2
 - Third-party libraries:
   - Apache Commons CLI 1.9.0
